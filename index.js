@@ -28,7 +28,7 @@ const program = new commander.Command(packageFile.name)
     'override default page like New Tab, Bookmarks, or History page'
   )
   .option('--devtools', 'add features to Chrome Developer Tools')
-  .option('--typescript', 'add support fort TypeScript')
+  .option('--typescript', 'add support for TypeScript')
   .on('--help', () => {
     console.log(`    Only ${chalk.green('<project-directory>')} is required.`);
   })
